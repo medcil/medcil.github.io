@@ -25,7 +25,7 @@
     <!-- mailchimp styles -->
         <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
     <style type="text/css">
-     #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+     #mc_embed_signup{/*background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;*/ }
     /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
     </style>
@@ -65,13 +65,12 @@
                             <!-- mailchimp subscribe form here -->
 
                             <div id="mc_embed_signup">
-                            <form action="http://medcil.us14.list-manage.com/subscribe/post?u=1f2e9c2d0b84cda96b00ec895&amp;id=958020ec06" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <form action="http://medcil.us14.list-manage.com/subscribe/post?u=1f2e9c2d0b84cda96b00ec895&amp;id=958020ec06" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" >
                                 <div id="mc_embed_signup_scroll">
                 
-                            <div class="mc-field-group">
                                
-                                <input type="email" class="required email form-control inputEmail" id="mce-Email" placeholder="von@medcil.com" name="EMAIL">
-                            </div>
+                                <input type="email" class="required email form-control inputEmail" id="mce-Email" placeholder="von@medcil.com" name="EMAIL" required >
+                            
                                 <div id="mce-responses" class="clear">
                                     <div class="response" id="mce-error-response" style="display:none"></div>
                                     <div class="response" id="mce-success-response" style="display:none"></div>
