@@ -223,6 +223,8 @@ section#mid{
 	#mc-embedded-subscribe{
 		 margin: 0 0 0 2% !important;
 		 clear:none !important;
+		 position:relative;
+		 z-index:999;
 	}
 section#footer{
 	width:100%;
