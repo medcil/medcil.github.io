@@ -219,7 +219,10 @@ section#mid{
 		padding-top:20px;
 		text-align: left;
 	}
-
+	
+	#mc-embedded-subscribe{
+		margin:1em 0 1em 0% !important;
+	}
 section#footer{
 	width:100%;
 	height: auto;
